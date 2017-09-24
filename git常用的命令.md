@@ -13,9 +13,9 @@ git add \<file> **将工作文件修改提交到本地暂存区**
 
 git add . **将所有修改过的工作文件提交暂存区** 
 
-git rm \<file> **从版本库中删除文件** 
+git rm \<file> **从版本库中删除文件，注意的是在有新的文件commit后才会在版本库删除** 
 
-git rm \<file> --cached **从版本库中删除文件，但不删除文件** 
+git rm \<file> --cached **从版本库中删除文件，但不删除本地文件** 
 
 git reset \<file> **从暂存区恢复到工作文件** 
 
