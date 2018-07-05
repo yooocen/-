@@ -49,7 +49,7 @@ git diff --stat **仅仅比较统计信息**
 
 ## 查看提交记录
 
-git log git log \<file> **查看该文件每次提交记录** 
+git log \<file> **查看该文件每次提交记录** 
 
 git log -p \<file> **查看每次详细修改内容的diff** 
 
