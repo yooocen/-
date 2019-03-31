@@ -47,7 +47,7 @@ then
 		exit  
 	fi
 fi;
-
+``
 # 合并该分支
 git merge $choice > /tmp/logs
 echo
